@@ -8,7 +8,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 import junit.framework.Assert;
-//junit ²âÊÔ°¸Àı
+ /*
+  * junit ²âÊÔ°¸Àı
+  */
 
 public class TestNumber3 {
 

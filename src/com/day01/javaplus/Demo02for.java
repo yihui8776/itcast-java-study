@@ -75,8 +75,8 @@ public class Demo02for {
 		@Test
 	    public void test3(){
 			//@SuppressWarnings("rawtypes")
-			 //Map map = new HashMap(); //亂序
-			 Map map = new LinkedHashMap();  //有序  
+			 //Map map = new HashMap(); //是根据hashcode值排序
+			 Map map = new LinkedHashMap();  //有序  ，按存储顺序
 			 map.put("11", "aaa");
 			 map.put("22", "bbb");
 			 map.put("33", "ccc");
